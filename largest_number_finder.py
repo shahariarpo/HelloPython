@@ -1,6 +1,4 @@
-numbers = [1, 5, 6, 7, 10]
-largest_num = numbers[0]
-for number in numbers:
-    if number > largest_num:
-        largest_num = number
-print(largest_num)
+from utilis import find_max_number
+numbers = [10, 2, 5, 50, 10, 3]
+max = find_max_number(numbers)
+print(max)
